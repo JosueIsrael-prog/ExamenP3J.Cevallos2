@@ -17,7 +17,7 @@ public class CountriesViewModel
             var json = await response.Content.ReadAsStringAsync();
             var countries = JsonConvert.DeserializeObject<List<Country>>(json); 
             foreach (var country in countries)
-            {
+            { 
                 Countries.Add(country);
             }
         }
