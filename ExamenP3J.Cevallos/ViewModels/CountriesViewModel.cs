@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using ExamenP3J.Cevallos.ViewModels;
 using Newtonsoft.Json;
+namespace ExamenP3J.Cevallos
 
 public class CountriesViewModel
 {
